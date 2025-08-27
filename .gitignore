@@ -1,0 +1,40 @@
+# ============ .NET / API ============
+# Build output
+api/bin/
+api/obj/
+api/out/
+
+# User-specific files
+api/*.user
+api/*.suo
+api/*.userosscache
+api/*.sln.docstates
+api/.vs/
+
+# NuGet
+api/packages/
+api/*.nupkg
+api/.nuget/
+
+# Logs
+api/*.log
+api/TestResults/
+
+# Publish
+api/publish/
+api/*.Publish.xml
+
+# ============ Angular / UI ============
+# Node modules
+ui/node_modules/
+
+# Angular build output
+ui/dist/
+ui/out-tsc/
+
+# IDE / editor
+ui/.vscode/
+ui/.idea/
+
+# Environment files
+ui/src/environments/environment*.ts
